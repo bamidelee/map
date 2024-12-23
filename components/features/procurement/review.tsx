@@ -63,7 +63,7 @@ export default function Review() {
             <AlertDialog open={loading} onOpenChange={setLoading}>
 
                 <AlertDialogContent className="w-[21rem]">
-                    <AlertDialogHeader>
+                    <AlertDialogHeader className="hidden">
                         <AlertDialogTitle className="hidden">Confirmation</AlertDialogTitle>
                         <AlertDialogDescription>
 
