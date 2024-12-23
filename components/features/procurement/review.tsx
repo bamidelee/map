@@ -1,4 +1,4 @@
-
+'use client'
 import Section from "../section"
 import { Icon } from "@iconify/react";
 import ItemTable from "./itemTable";

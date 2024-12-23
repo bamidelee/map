@@ -1,5 +1,5 @@
 
-
+'use client'
 import Section from "../section"
 
 import {
