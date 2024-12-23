@@ -36,7 +36,7 @@ export default function SideBarMenuItem({ item }: any) {
                         <SidebarMenuButton className={`flex items-center justify-between gap-2  ${pathname.startsWith(`/${item.title.toLowerCase()}`) && 'bg-[#E3EAFB]'} `} >
 
                             <div className="flex items-center gap-3">
-                                <Icon color="#667185" width="24" height="24" icon={item.icon} />
+                                <Icon  color={` ${pathname.startsWith(`/${item.title.toLowerCase()}`) ? '#175CFF': '#667185'}`} width="24" height="24" icon={item.icon} />
                                 <span className="text-[#344054]">{item.title}</span>
                             </div>
                             {open ? <ChevronDown /> : <ChevronUp />}
