@@ -85,7 +85,7 @@ export default function Review() {
                     </AlertDialogFooter> */}
                 </AlertDialogContent>
             </AlertDialog>
-            <Section headerRow title="Quote Information" subTitle={<Icon color="#98A2B3" width="24" height="24" icon={'hugeicons:pencil-edit-02'} />}>
+            <Section headerRow title="Request Information" subTitle={<Icon color="#98A2B3" width="24" height="24" icon={'hugeicons:pencil-edit-02'} />}>
                 <div className="mt-8 flex justify-between">
                     <div className="flex flex-col gap-4">
                         {quoteLeft.map((q, i) => <p key={i} className="text-[#555E68] font-[500] opacity-65">{q}</p>)}

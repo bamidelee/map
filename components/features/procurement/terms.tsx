@@ -83,7 +83,7 @@ export default function Terms() {
                     </div>
                     <div className="flex gap-2 items-center">
                         <div className="w-[6rem] h-[1px] bg-[#F0F2F5]"></div>
-                        <span>OR</span>
+                        <span className="text-[#98A2B3] text-xs font-bold">OR</span>
                         <div className="w-[6rem] h-[1px] bg-[#F0F2F5]"></div>
                     </div>
                     <Button variant={'outline'} className="text-[#175CFF] border-[#175CFF] h-[2.25rem] w-[7rem] font-bold">Browse Files</Button>
