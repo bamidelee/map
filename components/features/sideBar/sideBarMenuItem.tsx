@@ -39,7 +39,7 @@ export default function SideBarMenuItem({ item }: any) {
                                 <Icon  color={` ${pathname.startsWith(`/${item.title.toLowerCase()}`) ? '#175CFF': '#667185'}`} width="24" height="24" icon={item.icon} />
                                 <span className="text-[#344054]">{item.title}</span>
                             </div>
-                            {open ? <ChevronDown /> : <ChevronUp />}
+                            {!open ? <ChevronDown /> : <ChevronUp />}
 
                         </SidebarMenuButton>
 
