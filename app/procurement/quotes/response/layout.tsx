@@ -1,5 +1,6 @@
 
 import Tabs from "@/components/features/procurement/tabs";
+import { Suspense } from "react";
 
 export default function Layout({
     children,
@@ -10,7 +11,9 @@ export default function Layout({
         <
          
         >
-            <Tabs />
+            <Suspense>
+                <Tabs />
+            </Suspense>
             {children}
 
         </>
